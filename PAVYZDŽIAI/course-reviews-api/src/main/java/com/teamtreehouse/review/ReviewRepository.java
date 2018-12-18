@@ -6,5 +6,6 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 /**
  * Created by Marius on 2/6/2017.
  */
-public interface ReviewRepository extends PagingAndSortingRepository<Review, Long> {
+public interface ReviewRepository extends
+        PagingAndSortingRepository<Review, Long> {
 }

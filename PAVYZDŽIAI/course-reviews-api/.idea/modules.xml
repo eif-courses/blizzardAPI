@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/course-reviews-api.iml" filepath="$PROJECT_DIR$/.idea/modules/course-reviews-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/course-reviews-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/course-reviews-api_main.iml" group="course-reviews-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/course-reviews-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/course-reviews-api_test.iml" group="course-reviews-api" />
     </modules>
   </component>
 </project>

@@ -13,7 +13,7 @@ import java.sql.DriverManager;
  * @author Marius
  */
 public class ConnectionConfiguration {
-    public static final String URL = "jdbc:mysql://localhost:3306/viko";
+    public static final String URL = "jdbc:mysql://localhost:3306/diagnozes";
     /**
      * In my case username is "root" *
      */

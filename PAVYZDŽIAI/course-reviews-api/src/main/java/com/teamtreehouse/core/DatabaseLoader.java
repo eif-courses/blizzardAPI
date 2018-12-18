@@ -58,6 +58,9 @@ public class DatabaseLoader implements ApplicationRunner{
                 forEach(i ->{
                     String template = templates[i % templates.length];
                     String buzzword = buzzwords[i % buzzwords.length];
+
+                                                //"%s Basics", C++
+                    // printf("%s Basics", "C++");
                     String title = String.format(template, buzzword);
                     Course c = new Course(title,"http://eif-courses.github.io/Programavimas-Java/");
                     c.addReview(new Review(i % 5, String.format("Moar %s please!!!", buzzword)));

@@ -16,6 +16,7 @@ import java.util.List;
  */
 
 @Entity
+
 public class Course extends BaseEntity{
     @NotNull
     @Size(min = 2, max = 140)
