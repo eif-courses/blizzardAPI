@@ -6,5 +6,6 @@ Scenario:
    And I hit enter button as "enter"
    And I enter username
    And I start bruteForceAttack
+   And Palaukti keleta minuciu ir vel pradeti
    Then Login should fail
 

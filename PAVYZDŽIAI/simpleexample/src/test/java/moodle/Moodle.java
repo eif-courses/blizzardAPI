@@ -1,5 +1,6 @@
 package moodle;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
@@ -13,6 +14,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
+
+// Driveri atsisiusti galima http://chromedriver.chromium.org/getting-started
 public class Moodle {
    private WebDriver driver = null;
    private WebDriverWait wait;
@@ -74,7 +78,14 @@ public class Moodle {
        for (int i = 0; i < brute_force.length; i++) {
           driver.findElement(By.id("password")).sendKeys(brute_force[i]);
           driver.findElement(By.id("password")).sendKeys(Keys.ENTER);
-         // Thread.sleep(1000);
+          Thread.sleep(1000);
        }
     }
+
+   @And("^Palaukti keleta minuciu ir vel pradeti$")
+   public void palauktiKeletaMinuciuIrVelPradeti() throws Throwable {
+      // Write code here that turns the phrase above into concrete actions
+      //throw new PendingException();
+
+   }
 }
